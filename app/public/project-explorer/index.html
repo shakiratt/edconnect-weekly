@@ -1,42 +1,120 @@
-<h1>Project Explorer</h1>
-<h2>One Stop Database for Academic Projects</h2>
+<head>
+    <link rel="stylesheet" href="C:\Users\shakirat\edconnect-weekly\app\public\project-explorer\css\bootstrap.min.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white mb-3" href="#">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form name="searchForm" class="form-inline">
+                <input type="text" class="form-control" placeholder="Search Projects" />
+                <button class="btn btn-outline-light ml-2" type="submit">Search</button>
+            </form>
+            <button class="btn text-white disabled mr-auto mb-3" type="submit">Submit</button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="search.html">Projects</a>
-    <a href="login.html">Login</a>
-    <a href="register.html">Register</a>
-    <a href="createproject.html">Submit</a>
-</nav>
-<br>
-<main>This application allows you to explore various academic projects. You can search, upload and browse projects
+<main>
+    <section>
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Project Explorer</h1>
+            <p class="lead">
+                Project Explorer is a repo for final year student across all department at your institution.
+                You can submit your project and research topic here
+            </p>
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <hr class="my-8">
+            <a class="btn btn-primary" href="register.html" role="button">Get Started</a>
+            <a class="btn btn-secondary" href="login.html" role="button">Login</a>
+        </div>
+    </section>
 
-    <h3>Project List</h3>
-    <h4> Project 1</h4>
-    <ul>
-        <li> Name: Project 1</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore
-            et dolore magna aliqua. Auctor augue mauris augue neque gravida. </li>
-        <li>Program: Computer Science</li>
-        <li>Year: 2018</li>
-    </ul>
-    <h4> Project 2</h4>
-    <ul>
-        <li> Name: Project 2</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore
-            et dolore magna aliqua. Auctor augue mauris augue neque gravida. </li>
-        <li>Program: Computer Science</li>
-        <li>Year: 2018</li>
-    </ul>
-    <h4> Project 3</h4>
-    <ul>
-        <li> Name: Project 3</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore
-            et dolore magna aliqua. Auctor augue mauris augue neque gravida. </li>
-        <li>Program: Computer Science</li>
-        <li>Year: 2018</li>
-    </ul>
+    <section>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                        <p class="card-text">
+                            Description:Lorem ipsum dolor sitn amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.
+                        </p>
+                        <a href="#" class="card-link">#html</a>
+                        <a href="#" class="card-link">#css</a>
+                        <a href="#" class="card-link">#javascript</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                        <p class="card-text">
+                            Description:Lorem ipsum dolor sitn amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.
+                        </p>
+                        <a href="#" class="card-link">#html</a>
+                        <a href="#" class="card-link">#css</a>
+                        <a href="#" class="card-link">#javascript</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                        <p class="card-text">
+                            Description:Lorem ipsum dolor sitn amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.
+                        </p>
+                        <a href="#" class="card-link">#html</a>
+                        <a href="#" class="card-link">#css</a>
+                        <a href="#" class="card-link">#javascript</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                        <p class="card-text">
+                            Description:Lorem ipsum dolor sitn amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.
+                        </p>
+                        <a href="#" class="card-link">#html</a>
+                        <a href="#" class="card-link">#css</a>
+                        <a href="#" class="card-link">#javascript</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
+<footer class="container">
+    <div class="d-flex justify-content-end bg-light">
+        <p>Project Explorer 2020&copy; - <strong>Edconnect</strong></p>
+    </div>
+</footer>
