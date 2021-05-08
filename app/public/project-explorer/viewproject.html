@@ -1,40 +1,124 @@
-<h1>Project Explorer</h1>
-<h2>One Stop Database for Academic Projects</h2>
+<head>
+    <link rel="stylesheet" href="C:\Users\shakirat\edconnect-weekly\app\public\project-explorer\css\bootstrap.min.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white mb-3" href="#">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form name="searchForm" class="form-inline">
+                <input type="text" class="form-control" placeholder="Search Projects" />
+                <button class="btn btn-outline-light ml-2" type="submit">Search</button>
+            </form>
+            <button class="btn text-white disabled mr-auto mb-3" type="submit">Submit</button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h2><strong>Project 1</strong></h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <p>
+                    Created by<br />
+                    Jimoh Shakirat
+                </p>
+            </div>
+            <div class="col-3">
+                <p>
+                    Date Created<br />
+                    04/05/2021
+                </p>
+            </div>
+            <div class="col-3">
+                <p>
+                    Last Updated<br />
+                    04/05/2021
+                </p>
+            </div>
+            <div class="col-3 text-right">
+                <a href="editproject.html" class="btn btn-primary">Edit Project</a>
+            </div>
+        </div>
+    </div>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="search.html">Projects</a>
-    <a href="login.html">login</a>
-    <a href="register.html">Register</a>
-</nav>
-<h2><b>Project 1</b></h2>
-<nav>
-    <a href="editproject.html"> Edit project</a>
-</nav>
-<ul>
-    <li>Created by: shakirat</li>
-    <li>Date Created: Today</li>
-    <li>Last Updated: 09/01/02</li>
-</ul>
-<h2><b>Project Abstract</b></h2>
-<div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Adipiscing diam
-        donec adipiscing tristique risus nec feugiat. At in tellus integer feugiat scelerisque varius morbi enim nunc.
-        Neque convallis a cras semper auctor. Nibh sit amet commodo nulla. Eu tincidunt tortor aliquam nulla facilisi
-        cras fermentum odio eu. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Neque vitae
-        tempus quam pellentesque nec nam aliquam sem et. Ut tellus elementum sagittis vitae et leo. Gravida quis blandit
-        turpis cursus in hac habitasse. Sed euismod nisi porta lorem mollis. Enim ut sem viverra aliquet. Porttitor
-        rhoncus dolor purus non. Cras tincidunt lobortis feugiat vivamus at. Eu facilisis sed odio morbi quis. Aenean
-        euismod elementum nisi quis eleifend quam adipiscing vitae. Facilisi cras fermentum odio eu feugiat pretium.
-        Turpis nunc eget lorem dolor sed viverra. Ut enim blandit volutpat maecenas.</p>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-2">
+                <h4><strong>Project Abstract</strong></h4>
+                <hr />
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Description:Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.<br />
+                            Description:Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+                            Eleifend quam adipiscing vitae proin sagittis nisl.<br />
+                            Description:Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
 
-<h2><b>Project Details</b></h2>
-<ul>
-    <li>Authors: John Doe, Jane Doe</li>
-    <li>Tags: #Asphyxia, #GSW</li>
-    <li>Project Files: <a href="editproject.html"> File1 </a> <a href="editproject.html"> ,File2</a>
-    </li>
-</ul>
-</main>
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Comments</label>
+                            <textarea type="text" name="abstract" class="form-control form-control-lg"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <hr />
+                <p>No comments added yet</p>
+            </div>
+
+            <div class="col mb-2">
+                <h4><strong>Project Details</strong></h4>
+                <hr />
+                <div class="card">
+                    <div class="card-header">
+                        Author(s)
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Ade Chris</p>
+                        <a href="#" class="class-link">#web</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        Project files
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">No file uploaded yet</p>
+                        <a href="#" class="class-link">#web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container">
+        <div class="d-flex justify-content-end bg-light">
+            <p>Project Explorer 2020&copy; - <strong>Edconnect</strong></p>
+        </div>
+    </footer>
